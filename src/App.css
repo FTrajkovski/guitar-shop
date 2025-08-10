@@ -2,14 +2,44 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  padding-top: 0rem;
   text-align: center;
+}
+.highlight{
+  color: #FF6428;
+}
+.why-try{
+
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: #262626;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.guitar-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 672px;
+  height: 586px;
+  opacity: 1;
+  border-bottom-right-radius: 151px;
+  border-bottom-left-radius: 360px;
+  background: linear-gradient(180deg, #FF8C60 0%, #FF5B1C 100%);
+  object-fit: cover; 
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  top: 62px;
+  left: 320px;
+  width: 160px;
+  height: 32px;
+  opacity: 1;
+  transform: rotate(0deg);
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
